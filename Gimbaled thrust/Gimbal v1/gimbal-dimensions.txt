@@ -1,0 +1,6 @@
+﻿"motor-dia" = 46
+"motor-holes-rad" = 15
+"motor-height" = 21
+
+
+"motor-case-thickness" = 2
