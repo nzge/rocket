@@ -1,0 +1,15 @@
+%% ENGR 96 Rocket: Nosecone
+clear all; close all; clc; 
+
+%%
+L= 8; %in
+C = 0;
+R = 3; %in
+x = 0:1:8;
+
+
+h = acos(1-(2.*x)./L);
+
+y = (R./sqrt(pi)) .* sqrt(h - (sin(2.*h))./2 + C.*((sin(h)).^3));
+
+plot(y)
